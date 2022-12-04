@@ -1,0 +1,12 @@
+@import "development/scss/reset/reset";
+@import "settings/index";
+
+@import "elements/nav";
+
+
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
