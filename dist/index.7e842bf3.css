@@ -191,10 +191,73 @@ textarea {
   padding: .2em 0;
 }
 
+.header {
+  height: 80px;
+  box-shadow: 0 0 100px -31px #42445a;
+}
+
+.header_container {
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.header_nav {
+  list-style-type: none;
+  display: flex;
+}
+
+.header_nav_link {
+  letter-spacing: 5px;
+  color: #f2889b;
+  border-bottom: 6px solid #0000;
+  padding: 20px 40px;
+  font-family: Bebas Neue;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header_nav_link:hover {
+  border-color: #f2889b;
+  transition: all 1s;
+}
+
+.opening {
+  padding: 80px 0;
+}
+
+.company {
+  color: #000;
+  font-family: Shadows Into Light;
+  font-size: 100px;
+}
+
+.sentence {
+  padding-top: 80px;
+  font-family: Lato;
+  font-size: 30px;
+}
+
+.opening_single {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.photo {
+  width: 450px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=index.7e842bf3.css.map */

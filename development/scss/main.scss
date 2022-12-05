@@ -1,7 +1,10 @@
 @import "development/scss/reset/reset";
 @import "settings/index";
+@import "settings/colors";
+@import "settings/fonts";
 
-@import "elements/nav";
+@import "elements/navi";
+@import "elements/opening";
 
 
 
@@ -9,4 +12,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
 }

@@ -1,0 +1,31 @@
+.header {
+  height: 80px;
+  box-shadow: 0 0 100px -31px rgba(66, 68, 90, 1);
+}
+
+.header_container {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header_nav {
+  display: flex;
+  list-style-type: none;
+}
+
+.header_nav_link {
+  font-size: 22px;
+  font-family: "Bebas Neue";
+  letter-spacing: 5px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 20px 40px;
+  color: $color-pink;
+  border-bottom: 6px solid transparent;
+}
+
+.header_nav_link:hover {
+  border-color: $color-pink;
+  transition: 1s;
+}
