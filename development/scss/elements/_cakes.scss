@@ -1,0 +1,28 @@
+.cakes-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+}
+
+.cake_image {
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: 30px 41px 49px -6px rgba(66, 68, 90, 1);
+}
+
+.cake_text {
+  padding-left: 100px;
+}
+
+.cake_title {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  letter-spacing: 3px;
+}
+
+.cake_sentence {
+  font-family: "Lato";
+  font-size: 20px;
+  padding: 20px 0 40px 0;
+}
