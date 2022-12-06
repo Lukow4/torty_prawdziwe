@@ -193,7 +193,7 @@ textarea {
 
 .header {
   height: 80px;
-  box-shadow: 0 0 100px -31px #42445a;
+  box-shadow: 0 0 33px -11px #00000080;
 }
 
 .header_container {
@@ -373,7 +373,7 @@ nav li {
 .cake_image {
   width: 400px;
   border-radius: 50%;
-  box-shadow: 30px 41px 49px -6px #42445a;
+  box-shadow: 6px 6px 17px #42445a;
 }
 
 .cake_text {
@@ -395,7 +395,7 @@ nav li {
 .footer {
   padding: 20px 0;
   font-family: Lato;
-  box-shadow: 0 -5px 40px #00000029;
+  box-shadow: 0 0 33px -11px #00000080;
 }
 
 .footer_container {
@@ -413,6 +413,79 @@ nav li {
 .icon {
   height: 40px;
   padding: 0 30px;
+}
+
+.contact_container {
+  justify-content: space-between;
+  padding: 100px 50px;
+  display: flex;
+}
+
+.contact_title {
+  padding-bottom: 20px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.contact_title_second {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.contact_text {
+  padding: 5px 0;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.contact_button {
+  margin-top: 40px;
+}
+
+.recipe_site_title {
+  letter-spacing: 3px;
+  color: #000;
+  font-family: Bebas Neue;
+  font-size: 80px;
+}
+
+.recipe_opening_text {
+  color: #de045b;
+  padding-top: 80px;
+  font-family: Lato;
+  font-size: 30px;
+}
+
+.recipe_opening_single {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+  display: flex;
+}
+
+.recipe_photo {
+  width: 450px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 17px #42445a;
+}
+
+.recipe_mixture {
+  justify-content: space-evenly;
+  display: flex;
+}
+
+.recipe_menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+}
+
+.recipe_products {
+  font-family: Lato;
+  font-size: 18px;
 }
 
 .example_d {

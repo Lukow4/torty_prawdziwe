@@ -1,0 +1,29 @@
+.contact_container {
+  padding: 100px 50px;
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.contact_title {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  padding-bottom: 20px;
+}
+
+.contact_title_second {
+  font-family: "Bebas Neue";
+  font-size: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+.contact_text {
+  font-family: "Lato";
+  font-size: 20px;
+  padding: 5px 0;
+}
+
+.contact_button {
+  margin-top: 40px;
+}

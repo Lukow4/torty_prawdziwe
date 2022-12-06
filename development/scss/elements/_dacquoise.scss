@@ -1,0 +1,44 @@
+.recipe_site_title {
+  font-size: 80px;
+  letter-spacing: 3px;
+  color: black;
+  font-family: "Bebas Neue";
+}
+
+.recipe_opening_text {
+  font-family: "Lato";
+  font-size: 30px;
+  padding-top: 80px;
+  color: $color-pink3;
+}
+
+.recipe_opening_single {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+}
+
+.recipe_photo {
+  width: 450px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 17px 0px rgba(66, 68, 90, 1);
+}
+
+.recipe_mixture {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.recipe_menu {
+  font-family: "Bebas Neue";
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.recipe_products {
+  font-family: "Lato";
+  font-size: 18px;
+
+}
