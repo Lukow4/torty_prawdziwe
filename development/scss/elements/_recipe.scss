@@ -1,0 +1,34 @@
+.recipe {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.recipe_box {
+  width: 80%;
+  border-radius: 10px;
+  display: flex;
+  margin: 30px;
+  padding: 30px;
+  text-align: center;
+  flex-direction: column;
+  align-items: center;
+  border: 3px solid $color-pink4;
+}
+
+.recipe_title {
+  font-family: "Bebas Neue";
+  letter-spacing: 5px;
+  font-size: 40px;
+}
+
+.recipe_text {
+  font-family: "Lato";
+  font-size: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+
+

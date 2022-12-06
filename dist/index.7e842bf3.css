@@ -197,20 +197,21 @@ textarea {
 }
 
 .header_container {
-  height: 100%;
-  justify-content: space-between;
+  height: 80px;
+  text-align: center;
+  justify-content: center;
   align-items: center;
   display: flex;
 }
 
-.header_nav {
-  list-style-type: none;
-  display: flex;
+nav li {
+  float: left;
+  margin: 0 50px;
 }
 
 .header_nav_link {
   letter-spacing: 5px;
-  color: #f2889b;
+  color: #de045b;
   border-bottom: 4px solid #0000;
   padding: 20px 40px;
   font-family: Bebas Neue;
@@ -220,7 +221,8 @@ textarea {
 }
 
 .header_nav_link:hover {
-  border-color: #f2889b;
+  color: #000;
+  border-color: #de045b;
   transition: all 1s;
 }
 
@@ -235,7 +237,7 @@ textarea {
 }
 
 .sentence {
-  color: #f2889b;
+  color: #de045b;
   padding-top: 80px;
   font-family: Lato;
   font-size: 30px;
@@ -290,7 +292,7 @@ textarea {
   width: auto;
   color: #000;
   cursor: pointer;
-  background-color: #fff8ee;
+  background-color: #fff;
   border-radius: 3px;
   padding: 15px;
   font-size: 25px;
@@ -327,6 +329,83 @@ textarea {
 
 .carousel_dots .active, .carousel_dots .dot:hover {
   background-color: gray;
+}
+
+.recipe {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.recipe_box {
+  width: 80%;
+  text-align: center;
+  border: 3px solid #fe9997;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+}
+
+.recipe_title {
+  letter-spacing: 5px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.recipe_text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 20px 0;
+  font-family: Lato;
+  box-shadow: 0 -5px 40px #00000029;
+}
+
+.footer_container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer_info_main {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 40px;
+  padding: 0 30px;
+}
+
+.example_d {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+  color: #000c !important;
+  border: 4px solid #000c !important;
+}
+
+.example_d:hover {
+  border-radius: 50px;
+  transition: all .6s;
+  color: #de045b !important;
+  border-color: #de045b !important;
 }
 
 * {
