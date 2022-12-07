@@ -32,6 +32,7 @@
 
 .recipe_menu {
   @include sentences;
+  font-weight: bold;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -39,5 +40,26 @@
 .recipe_products {
   font-family: "Lato";
   font-size: 18px;
+}
 
+.recipe_steps {
+  text-align: center;
+}
+
+.recipe_second_tittle {
+  @include main_title;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  color: $color-pink3;
+}
+
+.number {
+  color: $color-pink3;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.stepByStep {
+  @include sentences;
+  padding-top: 15px;
 }

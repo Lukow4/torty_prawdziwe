@@ -405,8 +405,9 @@ nav li {
 }
 
 .footer_info_main {
+  color: #de045b;
   padding-bottom: 10px;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
 }
 
@@ -481,11 +482,36 @@ nav li {
   margin-bottom: 10px;
   font-family: Lato;
   font-size: 20px;
+  font-weight: bold;
 }
 
 .recipe_products {
   font-family: Lato;
   font-size: 18px;
+}
+
+.recipe_steps {
+  text-align: center;
+}
+
+.recipe_second_tittle {
+  color: #de045b;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.number {
+  color: #de045b;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.stepByStep {
+  padding-top: 15px;
+  font-family: Lato;
+  font-size: 20px;
 }
 
 .example_d {
