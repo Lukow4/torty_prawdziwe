@@ -31,8 +31,7 @@
 }
 
 .recipe_menu {
-  font-family: "Bebas Neue";
-  font-size: 20px;
+  @include sentences;
   margin-top: 10px;
   margin-bottom: 10px;
 }

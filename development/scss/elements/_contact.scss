@@ -6,21 +6,18 @@
 }
 
 .contact_title {
-  font-family: "Bebas Neue";
-  font-size: 40px;
+  @include main_title;
   padding-bottom: 20px;
 }
 
 .contact_title_second {
-  font-family: "Bebas Neue";
-  font-size: 40px;
+  @include main_title;
   padding-top: 40px;
   padding-bottom: 20px;
 }
 
 .contact_text {
-  font-family: "Lato";
-  font-size: 20px;
+  @include sentences;
   padding: 5px 0;
 }
 

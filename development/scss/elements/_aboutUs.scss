@@ -1,16 +1,14 @@
 .about_us_main {
-  font-family: "Bebas Neue";
+  @include main_title;
   letter-spacing: 5px;
   text-align: center;
-  font-size: 40px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
 .about_us_text {
+  @include sentences;
   text-align: center;
-  font-family: "Lato";
-  font-size: 20px;
   padding-top: 20px;
 }
 

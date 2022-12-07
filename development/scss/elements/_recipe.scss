@@ -18,14 +18,12 @@
 }
 
 .recipe_title {
-  font-family: "Bebas Neue";
+  @include main_title;
   letter-spacing: 3px;
-  font-size: 40px;
 }
 
 .recipe_text {
-  font-family: "Lato";
-  font-size: 20px;
+  @include sentences;
   padding-top: 20px;
   padding-bottom: 20px;
 }
