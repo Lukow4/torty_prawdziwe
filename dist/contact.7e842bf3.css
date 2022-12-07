@@ -1,0 +1,524 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+:focus {
+  outline: 0;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration, input[type="search"]::-webkit-search-results-button, input[type="search"]::-webkit-search-results-decoration {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+input[type="search"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-sizing: content-box;
+}
+
+textarea {
+  vertical-align: top;
+  resize: vertical;
+  overflow: auto;
+}
+
+audio, canvas, video {
+  zoom: 1;
+  max-width: 100%;
+  display: inline;
+}
+
+audio:not([controls]) {
+  height: 0;
+  display: none;
+}
+
+[hidden] {
+  display: none;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  font-size: 100%;
+}
+
+a:focus {
+  outline: thin dotted;
+}
+
+a:active, a:hover {
+  outline: 0;
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+
+figure, form {
+  margin: 0;
+}
+
+fieldset {
+  border: 1px solid silver;
+  margin: 0 2px;
+  padding: .35em .625em .75em;
+}
+
+legend {
+  white-space: normal;
+  border: 0;
+  margin-left: -7px;
+  padding: 0;
+}
+
+button, input, select, textarea {
+  vertical-align: baseline;
+  vertical-align: middle;
+  margin: 0;
+  font-size: 100%;
+}
+
+button, input {
+  line-height: normal;
+}
+
+button, select {
+  text-transform: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer;
+  overflow: visible;
+}
+
+button[disabled], html input[disabled] {
+  cursor: default;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  box-sizing: border-box;
+  height: 13px;
+  width: 13px;
+  padding: 0;
+}
+
+input[type="search"] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+textarea {
+  vertical-align: top;
+  overflow: auto;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+html, button, input, select, textarea {
+  color: #222;
+}
+
+::selection {
+  text-shadow: none;
+  background: #b3d4fc;
+}
+
+img {
+  vertical-align: middle;
+}
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+textarea {
+  resize: vertical;
+}
+
+.chromeframe {
+  color: #000;
+  background: #ccc;
+  margin: .2em 0;
+  padding: .2em 0;
+}
+
+.header {
+  height: 80px;
+  box-shadow: 0 0 33px -11px #00000080;
+}
+
+.header_container {
+  height: 80px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+nav li {
+  float: left;
+  margin: 0 50px;
+}
+
+.header_nav_link {
+  letter-spacing: 5px;
+  color: #de045b;
+  border-bottom: 4px solid #0000;
+  padding: 20px 40px;
+  font-family: Bebas Neue;
+  font-size: 22px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.header_nav_link:hover {
+  color: #000;
+  border-color: #de045b;
+  transition: all 1s;
+}
+
+.opening {
+  padding: 100px 0;
+}
+
+.company {
+  color: #000;
+  font-family: Shadows Into Light;
+  font-size: 100px;
+}
+
+.sentence {
+  color: #de045b;
+  padding-top: 80px;
+  font-family: Lato;
+  font-size: 30px;
+}
+
+.opening_single {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.photo {
+  width: 450px;
+}
+
+.about_us_main {
+  letter-spacing: 5px;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.about_us_text {
+  text-align: center;
+  padding-top: 20px;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.carousel_container {
+  max-width: 1300px;
+  margin: auto;
+  position: relative;
+}
+
+.carousel_container .carousel_item {
+  display: none;
+}
+
+.carousel_container .carousel_item .carousel_item_photo {
+  z-index: -1;
+  width: 100%;
+  height: auto;
+  background-position: center;
+  background-size: cover;
+  margin-top: 110px;
+}
+
+.carousel_container .prevButton, .carousel_container .nextButton {
+  width: auto;
+  color: #000;
+  cursor: pointer;
+  background-color: #fff;
+  border-radius: 3px;
+  padding: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  transition: all .3s linear;
+  position: absolute;
+  top: 50%;
+}
+
+.carousel_container .nextButton {
+  right: 0;
+}
+
+.carousel_container .prevButton:hover, .carousel_container .nextButton:hover {
+  color: #fff;
+  background-color: #000c;
+}
+
+.carousel_dots {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.carousel_dots .dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  background-color: #000;
+  border-radius: 50%;
+  margin: 0 2px;
+  transition: background-color .3s linear;
+  display: inline-block;
+}
+
+.carousel_dots .active, .carousel_dots .dot:hover {
+  background-color: gray;
+}
+
+.recipe {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.recipe_box {
+  width: 80%;
+  text-align: center;
+  border: 3px solid #f8c8c4;
+  border-radius: 10px;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  padding: 30px;
+  display: flex;
+}
+
+.recipe_title {
+  letter-spacing: 3px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.recipe_text {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.cakes-container {
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0;
+  display: flex;
+}
+
+.cake_image {
+  width: 400px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 17px #42445a;
+}
+
+.cake_text {
+  padding-left: 100px;
+}
+
+.cake_title {
+  letter-spacing: 3px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.cake_sentence {
+  padding: 20px 0 40px;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.footer {
+  padding: 20px 0;
+  font-family: Lato;
+  box-shadow: 0 0 33px -11px #00000080;
+}
+
+.footer_container {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.footer_info_main {
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.icon {
+  height: 40px;
+  padding: 0 30px;
+}
+
+.contact_container {
+  justify-content: space-between;
+  padding: 100px 50px;
+  display: flex;
+}
+
+.contact_title {
+  padding-bottom: 20px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.contact_title_second {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+.contact_text {
+  padding: 5px 0;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+.contact_button {
+  margin-top: 40px;
+}
+
+.recipe_site_title {
+  letter-spacing: 3px;
+  color: #000;
+  font-family: Bebas Neue;
+  font-size: 80px;
+}
+
+.recipe_opening_text {
+  color: #de045b;
+  padding-top: 80px;
+  font-family: Lato;
+  font-size: 30px;
+}
+
+.recipe_opening_single {
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 40px;
+  display: flex;
+}
+
+.recipe_photo {
+  width: 450px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 17px #42445a;
+}
+
+.recipe_mixture {
+  justify-content: space-between;
+  display: flex;
+}
+
+.recipe_menu {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+}
+
+.recipe_products {
+  font-family: Lato;
+  font-size: 18px;
+}
+
+.example_d {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+  text-decoration: none;
+  transition: all .3s;
+  display: inline-block;
+  color: #de045b !important;
+  border: 4px solid #de045b !important;
+}
+
+.example_d:hover {
+  border-radius: 50px;
+  transition: all .6s;
+  color: #000c !important;
+  border-color: #000c !important;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+/*# sourceMappingURL=contact.7e842bf3.css.map */
