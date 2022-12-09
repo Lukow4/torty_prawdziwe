@@ -12,3 +12,11 @@
   padding-top: 20px;
 }
 
+@media (max-width: 390px ) {
+  .about_us_text {
+    font-size: 16px;
+  }
+  .about_us_main {
+    font-size: 22px;
+  }
+}
