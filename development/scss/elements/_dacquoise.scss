@@ -63,3 +63,47 @@
   @include sentences;
   padding-top: 15px;
 }
+
+@media (max-width: 390px ) {
+  .recipe_opening_single {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .recipe_photo {
+    width: 350px;
+  }
+  .recipe_site_title {
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .recipe_opening_text {
+    font-size: 18px;
+    padding-bottom: 30px;
+    padding-top: 0;
+  }
+  .recipe_menu {
+    font-size: 16px;
+  }
+  .recipe_products {
+    font-size: 16px;
+  }
+  .recipe_mixture {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .recipe_second_tittle {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: $color-pink3;
+  }
+  .number {
+    font-size: 20px;
+  }
+
+  .stepByStep {
+    font-size: 16px;
+    padding-top: 15px;
+  }
+}

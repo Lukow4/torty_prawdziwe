@@ -228,7 +228,17 @@ nav li {
 
 @media (max-width: 390px) {
   .header {
-    display: none;
+    height: 100px;
+  }
+
+  .header_nav li {
+    margin: 0;
+    padding-top: 15px;
+  }
+
+  .header_nav_link {
+    border: none;
+    font-size: 20px;
   }
 }
 
@@ -590,6 +600,54 @@ nav li {
   padding-top: 15px;
   font-family: Lato;
   font-size: 20px;
+}
+
+@media (max-width: 390px) {
+  .recipe_opening_single {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .recipe_photo {
+    width: 350px;
+  }
+
+  .recipe_site_title {
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .recipe_opening_text {
+    padding-top: 0;
+    padding-bottom: 30px;
+    font-size: 18px;
+  }
+
+  .recipe_menu, .recipe_products {
+    font-size: 16px;
+  }
+
+  .recipe_mixture {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .recipe_second_tittle {
+    color: #de045b;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .number {
+    font-size: 20px;
+  }
+
+  .stepByStep {
+    padding-top: 15px;
+    font-size: 16px;
+  }
 }
 
 .prices_site {
