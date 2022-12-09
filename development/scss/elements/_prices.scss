@@ -68,3 +68,43 @@
 .products:last-child {
   padding-bottom: 100px;
 }
+
+@media (max-width: 390px ) {
+  .prices_opening_single {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .prices_photo {
+    width: 350px;
+  }
+  .prices_site_title {
+    margin-top: 0;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .prices_site_text {
+    font-size: 20px;
+    padding-bottom: 30px;
+  }
+  .prices_opening_text {
+    padding-top: 0;
+  }
+  .prices_second_tittle {
+    padding-top: 20px;
+    font-size: 22px;
+    padding-bottom: 20px;
+  }
+  .products_tittle {
+    font-size: 18px;
+  }
+  .product_name {
+    font-size: 16px;
+  }
+  .product_name_color {
+    font-size: 16px;
+  }
+  .products:last-child {
+    padding-bottom: 50px;
+  }
+}

@@ -19,3 +19,11 @@
   border-color: $color-gray-dark !important;
   transition: all 0.6s ease 0s;
 }
+
+@media (max-width: 390px ) {
+  .example_d {
+    width: 200px;
+    font-size: 16px;
+    text-align: center;
+  }
+}

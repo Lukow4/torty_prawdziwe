@@ -24,3 +24,34 @@
 .contact_button {
   margin-top: 40px;
 }
+
+@media (min-width: 391px ) {
+  .small_map {
+    display: none;
+  }
+}
+
+
+@media (max-width: 390px ) {
+  .contact_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .big_map {
+    display: none;
+  }
+  .contact_title {
+    font-size: 22px;
+    padding-top: 20px;
+  }
+  .contact_title_second {
+    font-size: 22px;
+  }
+  .contact_text {
+    font-size: 18px;
+  }
+  .small_map {
+   display: flex;
+  }
+}

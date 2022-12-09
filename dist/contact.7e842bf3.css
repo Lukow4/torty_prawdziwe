@@ -229,6 +229,7 @@ nav li {
 @media (max-width: 390px) {
   .header {
     height: 100px;
+    width: 390px;
   }
 
   .header_nav li {
@@ -304,6 +305,7 @@ nav li {
 
 @media (max-width: 390px) {
   .about_us_text {
+    margin: 0 20px;
     font-size: 16px;
   }
 
@@ -453,7 +455,7 @@ nav li {
   }
 
   .cake_image {
-    width: 350px;
+    width: 300px;
   }
 
   .cake_text {
@@ -533,6 +535,41 @@ nav li {
   margin-top: 40px;
 }
 
+@media (min-width: 391px) {
+  .small_map {
+    display: none;
+  }
+}
+
+@media (max-width: 390px) {
+  .contact_container {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .big_map {
+    display: none;
+  }
+
+  .contact_title {
+    padding-top: 20px;
+    font-size: 22px;
+  }
+
+  .contact_title_second {
+    font-size: 22px;
+  }
+
+  .contact_text {
+    font-size: 18px;
+  }
+
+  .small_map {
+    display: flex;
+  }
+}
+
 .recipe_site_title {
   letter-spacing: 3px;
   color: #000;
@@ -610,7 +647,7 @@ nav li {
   }
 
   .recipe_photo {
-    width: 350px;
+    width: 300px;
   }
 
   .recipe_site_title {
@@ -725,6 +762,51 @@ nav li {
   padding-bottom: 100px;
 }
 
+@media (max-width: 390px) {
+  .prices_opening_single {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .prices_photo {
+    width: 350px;
+  }
+
+  .prices_site_title {
+    margin-top: 0;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .prices_site_text {
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .prices_opening_text {
+    padding-top: 0;
+  }
+
+  .prices_second_tittle {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 22px;
+  }
+
+  .products_tittle {
+    font-size: 18px;
+  }
+
+  .product_name, .product_name_color {
+    font-size: 16px;
+  }
+
+  .products:last-child {
+    padding-bottom: 50px;
+  }
+}
+
 .example_d {
   letter-spacing: 5px;
   text-transform: uppercase;
@@ -745,6 +827,14 @@ nav li {
   transition: all .6s;
   color: #000c !important;
   border-color: #000c !important;
+}
+
+@media (max-width: 390px) {
+  .example_d {
+    width: 200px;
+    text-align: center;
+    font-size: 16px;
+  }
 }
 
 * {
