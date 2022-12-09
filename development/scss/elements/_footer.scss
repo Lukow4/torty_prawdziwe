@@ -21,3 +21,12 @@
   height: 40px;
   padding: 0 30px;
 }
+
+@media (max-width: 390px ) {
+  .footer_info_text {
+    display: none;
+  }
+  .footer_container {
+    justify-content: center;
+  }
+}

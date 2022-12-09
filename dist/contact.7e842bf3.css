@@ -396,6 +396,16 @@ nav li {
   font-size: 20px;
 }
 
+@media (max-width: 390px) {
+  .recipe_title {
+    font-size: 22px;
+  }
+
+  .recipe_text {
+    font-size: 16px;
+  }
+}
+
 .cakes-container {
   justify-content: space-between;
   align-items: center;
@@ -425,6 +435,31 @@ nav li {
   font-size: 20px;
 }
 
+@media (max-width: 390px) {
+  .cakes-container {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .cake_image {
+    width: 350px;
+  }
+
+  .cake_text {
+    padding-left: 0;
+  }
+
+  .cake_title {
+    padding-top: 50px;
+    font-size: 22px;
+  }
+
+  .cake_sentence {
+    font-size: 16px;
+  }
+}
+
 .footer {
   padding: 20px 0;
   font-family: Lato;
@@ -447,6 +482,16 @@ nav li {
 .icon {
   height: 40px;
   padding: 0 30px;
+}
+
+@media (max-width: 390px) {
+  .footer_info_text {
+    display: none;
+  }
+
+  .footer_container {
+    justify-content: center;
+  }
 }
 
 .contact_container {
