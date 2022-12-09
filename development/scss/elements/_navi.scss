@@ -32,3 +32,10 @@ nav li {
   transition: 1s;
   color: black;
 }
+
+@media (max-width: 390px ) {
+  .header {
+    display: none;
+  }
+}
+

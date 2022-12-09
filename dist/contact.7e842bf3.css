@@ -226,6 +226,12 @@ nav li {
   transition: all 1s;
 }
 
+@media (max-width: 390px) {
+  .header {
+    display: none;
+  }
+}
+
 .opening {
   padding: 100px 0;
 }
@@ -251,6 +257,23 @@ nav li {
 
 .photo {
   width: 450px;
+}
+
+@media (max-width: 390px) {
+  .company {
+    font-size: 50px;
+  }
+
+  .opening_single {
+    text-align: center;
+    flex-direction: column;
+    display: flex;
+  }
+
+  .photo {
+    width: 350px;
+    padding-top: 20px;
+  }
 }
 
 .about_us_main {
@@ -620,6 +643,12 @@ nav li {
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 390px) {
+  .container {
+    width: 390px;
+  }
 }
 
 /*# sourceMappingURL=contact.7e842bf3.css.map */

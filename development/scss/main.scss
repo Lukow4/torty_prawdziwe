@@ -28,3 +28,9 @@
   width: 1200px;
   margin: 0 auto;
 }
+
+@media (max-width: 390px ) {
+  .container {
+    width: 390px;
+  }
+}

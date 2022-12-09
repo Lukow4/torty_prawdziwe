@@ -23,5 +23,19 @@
 
 .photo {
   width: 450px;
+}
 
+@media (max-width: 390px ) {
+  .company {
+    font-size: 50px;
+  }
+  .opening_single {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .photo {
+    width: 350px;
+    padding-top: 20px;
+  }
 }
