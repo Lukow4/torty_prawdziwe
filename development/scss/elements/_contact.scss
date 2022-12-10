@@ -2,8 +2,9 @@
   padding: 100px 50px;
   display: flex;
   justify-content: space-between;
-
 }
+
+
 
 .contact_title {
   @include main_title;
@@ -20,11 +21,6 @@
   @include sentences;
   padding: 5px 0;
 }
-
-
-
-
-
 
 @media (min-width: 391px ) {
   .small_map {
