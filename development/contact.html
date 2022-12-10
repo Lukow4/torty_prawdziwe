@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -42,9 +42,33 @@
                 <p class="contact_text">Z chęcia odpowiemy na każde z nich!</p>
                 <p class="contact_text">Telefon: 720-809-994</p>
                 <p class="contact_text">Mail: kontakt@tortyprawdziwe.pl</p>
-                <div class="container-name"><a class="example_d contact_button" href="#" target="_blank" rel="nofollow"><span>Formularz kontaktowy</span></a></div>
             </div>
         </div>
+    </section>
+    <section class="form_main_container container">
+        <h2 class="form_title">Formularz kontaktowy</h2>
+
+        <div class="form_container">
+            <form action="/action_page.php">
+                <label for="fname">Imię:</label>
+                <input type="text" id="fname" name="firstname" placeholder="Imię">
+
+                <label for="lname">Nazwisko:</label>
+                <input type="text" id="lname" name="lastname" placeholder="Nazwisko">
+
+                <label for="country">Powód kontaktu:</label>
+                <select id="country" name="country">
+                    <option value="australia">Złożenie zamówienia</option>
+                    <option value="canada">Zapytanie ofertowe</option>
+                    <option value="usa">Reklamacja</option>
+                </select>
+
+                <label for="subject">Twoja wiadomość</label>
+                <textarea id="subject" name="subject" placeholder="Tutaj wpisz swoją wiadomość..." style="height:200px"></textarea>
+                <input class="example_d extra_button" type="submit" value="Wyślij">
+            </form>
+        </div>
+
     </section>
 </main>
 <footer class="footer">

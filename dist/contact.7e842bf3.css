@@ -241,6 +241,10 @@ nav li {
     border: none;
     font-size: 20px;
   }
+
+  .header_nav_element {
+    padding-left: 15px;
+  }
 }
 
 .opening {
@@ -531,10 +535,6 @@ nav li {
   font-size: 20px;
 }
 
-.contact_button {
-  margin-top: 40px;
-}
-
 @media (min-width: 391px) {
   .small_map {
     display: none;
@@ -804,6 +804,62 @@ nav li {
 
   .products:last-child {
     padding-bottom: 50px;
+  }
+}
+
+.form_title {
+  text-align: center;
+  color: #de045b;
+  padding-bottom: 30px;
+  font-family: Bebas Neue;
+  font-size: 40px;
+}
+
+input[type="text"], select, textarea {
+  width: 100%;
+  box-sizing: border-box;
+  resize: vertical;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  padding: 12px;
+  font-family: Lato;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  padding: 12px 20px;
+}
+
+.form_container {
+  width: 700px;
+  color: #de045b;
+  letter-spacing: 3px;
+  border-radius: 5px;
+  padding: 20px;
+  font-family: Bebas Neue;
+  font-size: 20px;
+}
+
+.form_main_container {
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.extra_button {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 390px) {
+  .form_container {
+    width: 300px;
   }
 }
 
