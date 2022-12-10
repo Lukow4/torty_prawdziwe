@@ -1,53 +1,101 @@
 .header {
-  height: 80px;
   box-shadow: 0px 0px 33px -11px rgba(0, 0, 0, 0.5);
 }
 
-.header_container {
+.navbar {
   display: flex;
-  height: 80px;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  text-align: center;
 }
 
-nav li {
-  float: left;
-  margin: 0 50px;
+.logo {
+  width: 60px;
+  margin-left: 20px;
 }
 
-.header_nav_link {
-  font-size: 22px;
-  font-family: "Bebas Neue";
-  letter-spacing: 5px;
-  text-decoration: none;
-  font-weight: 600;
-  padding: 20px 40px;
-  color: $color-pink3;
+.brand_title {
+  @include main_title;
+  letter-spacing: 3px;
+  font-size: 20px;
+  margin: 10px;
+}
+
+.navbar_links ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar_links li {
+  list-style: none;
   border-bottom: 4px solid transparent;
 }
 
-.header_nav_link:hover {
+.navbar_links li a {
+  text-decoration: none;
+  padding: 30px;
+  display: block;
+  @include sentences;
+  color: $color-pink3;
+
+}
+
+.navbar_links li:hover {
   border-color: $color-pink3;
   transition: 1s;
   color: black;
 }
 
-@media (max-width: 390px ) {
-  .header {
-    height: 100px;
-    width: 390px;
-  }
-  .header_nav li {
-    padding-top: 15px;
-    margin: 0;
-  }
-  .header_nav_link {
-    font-size: 20px;
-    border: none;
-  }
-  .header_nav_element {
-    padding-left: 15px;
-  }
+.toggle_button {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 21px;
 }
 
+.toggle_button .bar {
+  height: 3px;
+  width: 100%;
+  background-color: $color-pink3;
+  border-radius: 10px;
+}
+
+@media (max-width: 390px) {
+  .logo {
+    width: 50px;
+  }
+  .toggle_button {
+    display: flex;
+  }
+
+  .navbar_links {
+    display: none;
+    width: 100%;
+  }
+
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navbar_links ul {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .navbar_links li {
+    text-align: center;
+  }
+
+  .navbar_links li a {
+    padding: 10px;
+  }
+
+  .navbar_links.active {
+    display: flex;
+  }
+}
