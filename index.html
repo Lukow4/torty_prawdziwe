@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/d86d9fc493.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Torty prawdziwe</title>
+    <link rel="stylesheet" href="./development/scss/main.scss" />
+</head>
+<body>
+<header class="header">
+    <div class="header_container container">
+        <nav class="navbar">
+            <a href="index.html"><img src="./development/images/logo-icon.png" class="logo"></a>
+            <a href="#" class="toggle_button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar_links">
+                <ul>
+                    <li><a href="#">Torty</a></li>
+                    <li><a href="prices.html">Cafe</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="opening" id="start">
+        <div class="opening_container container">
+            <div class="opening_single">
+                <div class="opening_text">
+                    <h1 class="company">Torty Prawdziwe</h1>
+                    <p class="sentence">Szczęście to słodkości, a słodkości to MY!</p>
+                </div>
+                <img src="./development/images/logo.png" class="photo">
+            </div>
+        </div>
+    </section>
+    <section class="about_us container" id="aboutUs">
+        <h2 class="about_us_main">Poznajmy się!</h2>
+        <p class="about_us_text">Sercem naszej firmy jest Anna - główny cukiernik, zaś mózgiem całej operacji jest Ola, która jako właściciel dba tak naprawdę o każdy szczegół. A wszystko zaczęło się od pasji to wypieków! Dziewczyny podążając za swoimi marzeniami postanowiły stać się profesjonalistkami w swojej dziedzinie i rozpocząć poszerzanie swoich umiejętności.</p>
+        <p class="about_us_text">To właśnie w szkole nawiązały pierwszy kontakt, który przerodził się we wspólny biznes, a finalnie w szczerą przyjaźń!</p>
+        <p class="about_us_text">Torty Prawdziwe wyróżniają najwyższej jakości składniki i staranność. Nie dla nas jest zabawa w półprodukty! Każdego klienta traktujemy indywidualnie - nie ważne czy jest to mały tort urodzinowy, czy ogromna instalacja weselna. Nie zawsze estetyka idzie w parze ze smakiem, ale u nas znajdziesz połączenie idealne!</p>
+    </section>
+    <section>
+        <div class="carousel_container">
+            <div class="carousel_item">
+                <img class="carousel_item_photo" src="./development/images/Prezentacja1-1.jpg">
+            </div>
+            <div class="carousel_item">
+                <img class="carousel_item_photo" src="./development/images/Prezentacja1-2.jpg">
+            </div>
+            <div class="carousel_item">
+                <img class="carousel_item_photo" src="./development/images/Prezentacja1-3.jpg">
+            </div>
+            <a class="prevButton" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="nextButton" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="carousel_dots">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+        </div>
+    </section>
+    <section class="recipe container">
+        <div class="recipe_box">
+            <div class="recipe_text">
+                <h2 class="recipe_title">Przepis tygodnia</h2>
+                <p class="recipe_text">Nie macie pomysłu na to, czym najlepiej ugościć rodzinę i przyjaciół? Mamy na to rozwiązanie! <br> Co tydzień publikujemy dla Was szczegółową recepturę, na nasze cukiernicze hity! <br> Spróbujcie odtworzyć je krok po kroku i zaskoczcie swoich najbliższych!</p>
+            </div>
+            <div class="container-name"><a class="example_d" href="dacquoise.html" rel="nofollow"><span>Sprawdź przepis</span></a></div>
+        </div>
+    </section>
+    <section class="cakes">
+        <div class="cakes-container container">
+            <div class="cake_photo">
+                <img src="./development/images/torty.jpeg" class="cake_image">
+            </div>
+            <div class="cake_text">
+                <h2 class="cake_title">Poznaj naszą ofertę tortów</h2>
+                <p class="cake_sentence">Przyjęcie weselne, urodzinowe lub celebracja małych okazji nie może się odbyć bez takiego gościa jak tort! Dzięki indywidualnemu podejściu, jesteśmy w stanie przygotować wymarzony tort, który Wasi goście będą wspominać jeszcze długo! Poznaj naszą ofertę i stwórzmy razem coś słodkiego!</p>
+                <div class="container-name"><a class="example_d" href="#" rel="nofollow"><span>Sprawdź cennik</span></a></div>            </div>
+        </div>
+    </section>
+</main>
+<footer class="footer">
+    <div class="footer_container container">
+        <div class="footer_info">
+            <p class="footer_info_main">Torty Prawdziwe</p>
+            <p class="footer_info_text">Nowoursynowska 147; 02-776 Warszawa</p>
+            <p class="footer_info_text">NIP: 5252339114 Regon: 367924607</p>
+        </div>
+        <div class="footer_icons">
+            <a href="https://www.facebook.com/tortyprawdziwe" target="_blank"><img src="./development/images/facebook.png" class="icon"></a>
+            <a href="https://www.instagram.com/torty.prawdziwe/" target="_blank"><img src="./development/images/instagram.png" class="icon"></a>
+        </div>
+    </div>
+</footer>
+<script src="./development/js/index.js"></script>
+</body>
+</html>
