@@ -1,9 +1,8 @@
-"use strict";
 //carousell
 function showSlides(n) {
-    var i;
-    var slides = document.querySelectorAll(".carousel_item");
-    var dots = document.querySelectorAll(".dot");
+    let i;
+    let slides = document.querySelectorAll(".carousel_item");
+    let dots = document.querySelectorAll(".dot");
     if (n > slides.length) slideIndex = 1;
     if (n < 1) slideIndex = slides.length;
     for(i = 0; i < slides.length; i++)slides[i].style.display = "none";
@@ -11,7 +10,7 @@ function showSlides(n) {
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " active";
 }
-var slideIndex = 1;
+let slideIndex = 1;
 showSlides(slideIndex);
 function plusSlides(n) {
     showSlides(slideIndex += n);
@@ -20,9 +19,9 @@ function currentSlide(n) {
     showSlides(slideIndex = n);
 }
 //navi
-var toggleButton = document.getElementsByClassName("toggle_button")[0];
-var navBarLinks = document.getElementsByClassName("navbar_links")[0];
-toggleButton.addEventListener("click", function() {
+const toggleButton = document.getElementsByClassName("toggle_button")[0];
+const navBarLinks = document.getElementsByClassName("navbar_links")[0];
+toggleButton.addEventListener("click", ()=>{
     navBarLinks.classList.toggle("active");
 });
 
