@@ -532,6 +532,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"im36y":[function(require,module,exports) {
+"use strict";
 
 },{}]},["kJXGY","im36y"], "im36y", "parcelRequire3403")
 

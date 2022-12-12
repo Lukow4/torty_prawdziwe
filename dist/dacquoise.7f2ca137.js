@@ -532,6 +532,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"8zUvS":[function(require,module,exports) {
+"use strict";
 
 },{}]},["kl2oR","8zUvS"], "8zUvS", "parcelRequire3403")
 

@@ -532,6 +532,7 @@ function hmrAcceptRun(bundle, id) {
 }
 
 },{}],"j4kuM":[function(require,module,exports) {
+"use strict";
 
 },{}]},["c4xoB","j4kuM"], "j4kuM", "parcelRequire3403")
 
