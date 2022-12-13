@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/d86d9fc493.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,300;0,400;0,700;1,100;1,300;1,700&family=Shadows+Into+Light&display=swap" rel="stylesheet">
+    <title>Przepis tygodnia</title>
+    <link rel="stylesheet" href="./development/scss/main.scss" />
+</head>
+<body>
+<header class="header">
+    <div class="header_container container">
+        <nav class="navbar">
+            <a href="index.html"><img src="./development/images/logo-icon.png" class="logo"></a>
+            <a href="#" class="toggle_button">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </a>
+            <div class="navbar_links">
+                <ul>
+                    <li><a href="#">Torty</a></li>
+                    <li><a href="prices.html">Cafe</a></li>
+                    <li><a href="contact.html">Kontakt</a></li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+</header>
+<main>
+    <section class="prices_site opening">
+        <div class="container">
+            <div class="prices_opening_single">
+                <div class="prices_opening_text">
+                    <h1 class="prices_site_title">Oferta</h1>
+                    <p class="prices_site_text">Zapoznaj się z naszą ofertą</p>
+                </div>
+                    <img src="development/images/coffee.jpeg" class="recipe_photo" />
+            </div>
+        </div>
+    </section>
+    <section class="container">
+        <h2 class="prices_second_tittle">Słodkości</h2>
+        <p class="offer_text">Przyjęcie weselne, urodzinowe lub celebracja małych okazji nie może się odbyć bez takiego gościa jak tort! Dzięki indywidualnemu podejściu, jesteśmy w stanie przygotować wymarzony tort, który Wasi goście będą wspominać jeszcze długo! Poznaj naszą ofertę i stwórzmy razem coś słodkiego!</p>
+    </section>
+
+    <section class="container">
+        <div id="loancal">
+            <p class="offer_cal">Loan Calculator</p>
+            <div class="input">
+
+                <p class="cal_text">Podaj ilość osób:</p>
+                <input id="amount" type="number" min="1" max="5000000" onchange="computeLoan()">
+                <p class="cal_text">Podaj wagę porcji na osobę:</p>
+                <input id="interest_rate" min="0" max="100" value="10" step=".1" onchange="computeLoan()">
+                <p class="cal_text">Podaj ilość pięter:</p>
+                <input id="months" type="number" min="1" max="300" value="1" step="1" onchange="computeLoan()">
+
+            </div>
+
+            <h2 class="cal_payment" id="payment"></h2>
+
+        </div>
+    </section>
+
+</main>
+<footer class="footer">
+    <div class="footer_container container">
+        <div class="footer_info">
+            <p class="footer_info_main">Torty Prawdziwe</p>
+            <p class="footer_info_text">Nowoursynowska 147; 02-776 Warszawa</p>
+            <p class="footer_info_text">NIP: 5252339114 Regon: 367924607</p>
+        </div>
+        <div class="footer_icons">
+            <a href="https://www.facebook.com/tortyprawdziwe" target="_blank"><img src="./development/images/facebook.png" class="icon"></a>
+            <a href="https://www.instagram.com/torty.prawdziwe/" target="_blank"><img src="./development/images/instagram.png" class="icon"></a>
+        </div>
+    </div>
+</footer>
+<script src="./development/js/offer.js"></script>
+</body>
+</html>

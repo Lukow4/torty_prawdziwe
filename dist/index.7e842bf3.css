@@ -913,6 +913,49 @@ input[type="submit"] {
   }
 }
 
+.offer_text {
+  text-align: center;
+  font-family: Lato;
+  font-size: 20px;
+}
+
+#loancal {
+  width: 345px;
+  height: 420px;
+  color: #fff;
+  background-color: #f8c8c4;
+  margin: 100px auto;
+  padding: 10px;
+}
+
+.offer_cal {
+  text-align: center;
+  color: #095fac;
+  margin-bottom: 35px;
+  font-size: 30px;
+}
+
+.input {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.cal_text {
+  color: #1167aa;
+  font-size: 17px;
+}
+
+input {
+  width: 100%;
+  height: 33px;
+}
+
+.cal_payment {
+  text-align: center;
+  color: #066f8b;
+  margin-top: 35px;
+}
+
 .example_d {
   letter-spacing: 5px;
   text-transform: uppercase;
