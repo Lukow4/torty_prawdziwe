@@ -592,6 +592,14 @@ textarea {
   margin-top: 30px;
 }
 
+.contact_text_last {
+  margin-bottom: 40px;
+}
+
+.drive_text {
+  text-align: center;
+}
+
 @media (min-width: 391px) {
   .small_map {
     display: none;
