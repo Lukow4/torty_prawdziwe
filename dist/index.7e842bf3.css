@@ -202,7 +202,7 @@ textarea {
 }
 
 .logo {
-  width: 60px;
+  width: 50px;
   margin-left: 20px;
 }
 
@@ -388,7 +388,7 @@ textarea {
 
 .carousel_container .prevButton, .carousel_container .nextButton {
   width: auto;
-  color: #000;
+  color: #fe9997;
   cursor: pointer;
   background-color: #fff;
   border-radius: 3px;
@@ -418,7 +418,7 @@ textarea {
   cursor: pointer;
   height: 15px;
   width: 15px;
-  background-color: #000;
+  background-color: #f8c8c4;
   border-radius: 50%;
   margin: 0 2px;
   transition: background-color .3s linear;
@@ -426,7 +426,7 @@ textarea {
 }
 
 .carousel_dots .active, .carousel_dots .dot:hover {
-  background-color: gray;
+  background-color: #fe9997;
 }
 
 .carousel_container_second {
@@ -443,7 +443,7 @@ textarea {
 .recipe_box {
   width: 80%;
   text-align: center;
-  border: 3px solid #f8c8c4;
+  border: 3px solid #f3daef;
   border-radius: 10px;
   flex-direction: column;
   align-items: center;
@@ -586,6 +586,10 @@ textarea {
   padding: 5px 0;
   font-family: Lato;
   font-size: 20px;
+}
+
+.form_button {
+  margin-top: 30px;
 }
 
 @media (min-width: 391px) {
@@ -858,62 +862,6 @@ textarea {
 
   .products:last-child {
     padding-bottom: 50px;
-  }
-}
-
-.form_title {
-  text-align: center;
-  color: #de045b;
-  padding-bottom: 30px;
-  font-family: Bebas Neue;
-  font-size: 40px;
-}
-
-input[type="text"], select, textarea {
-  width: 100%;
-  box-sizing: border-box;
-  resize: vertical;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  margin-top: 6px;
-  margin-bottom: 16px;
-  padding: 12px;
-  font-family: Lato;
-  font-size: 16px;
-}
-
-input[type="submit"] {
-  cursor: pointer;
-  border: none;
-  border-radius: 4px;
-  padding: 12px 20px;
-}
-
-.form_container {
-  width: 700px;
-  color: #de045b;
-  letter-spacing: 3px;
-  border-radius: 5px;
-  padding: 20px;
-  font-family: Bebas Neue;
-  font-size: 20px;
-}
-
-.form_main_container {
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-}
-
-.extra_button {
-  margin-bottom: 100px;
-}
-
-@media (max-width: 390px) {
-  .form_container {
-    width: 300px;
   }
 }
 
