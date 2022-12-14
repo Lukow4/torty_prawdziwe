@@ -8,7 +8,7 @@
 
     .carousel_item_photo {
       z-index: -1;
-      margin-top: 110px;
+      margin-top: 30px;
       background-position: center;
       width: 100%;
       height: auto;
@@ -61,4 +61,8 @@
   .dot:hover {
     background-color: grey;
   }
+}
+
+.carousel_container_second {
+  margin-bottom: 100px;
 }

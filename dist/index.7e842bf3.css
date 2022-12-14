@@ -383,7 +383,7 @@ textarea {
   height: auto;
   background-position: center;
   background-size: cover;
-  margin-top: 110px;
+  margin-top: 30px;
 }
 
 .carousel_container .prevButton, .carousel_container .nextButton {
@@ -427,6 +427,10 @@ textarea {
 
 .carousel_dots .active, .carousel_dots .dot:hover {
   background-color: gray;
+}
+
+.carousel_container_second {
+  margin-bottom: 100px;
 }
 
 .recipe {
