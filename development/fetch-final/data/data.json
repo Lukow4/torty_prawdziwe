@@ -1,0 +1,49 @@
+{
+    "products": [
+        {
+            "product": "Mono deser",
+            "price": "Cena: 12,50",
+            "stock": "0 szt"
+        },
+        {
+            "product": "Tartaletka czekoladowa",
+            "price": "Cena: 10,00",
+            "stock": "2 szt"
+        },
+        {
+            "product": "Sernik klasyczny",
+            "price": "Cena: 9,50",
+            "stock": "8 szt"
+        },
+        {
+            "product": "Sernik słony karmel",
+            "price": "Cena: 11,50",
+            "stock": "2 szt"
+        },
+        {
+            "product": "Ekler Kinder Bueno",
+            "price": "Cena: 13,50",
+            "stock": "3 szt"
+        },
+        {
+            "product": "Mini beza z owocami",
+            "price": "Cena: 9,00",
+            "stock": "5 szt"
+        },
+        {
+            "product": "Makaronik",
+            "price": "Cena: 4,50",
+            "stock": "3 szt"
+        },
+        {
+            "product": "American cookie",
+            "price": "Cena: 5,50",
+            "stock": "9 szt"
+        },
+        {
+            "product": "Ptyś klasyczny",
+            "price": "Cena: 9,50",
+            "stock": "13 szt"
+        }
+    ]
+}
