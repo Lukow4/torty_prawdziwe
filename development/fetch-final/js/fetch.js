@@ -13,7 +13,9 @@ const generateAddresses = (data) => {
     addressList.appendChild(newAddressDiv);
   });
 };
-
-fetch("data/data.json")
+console.log("test");
+fetch("./data.json", { headers : { 'Content-Type': 'application/json', 'Accept': 'application/json' }})
 .then(response => response.json())
-.then(data => generateAddresses(data));
+    .then(res =>  console.log(res))
+//.then(data => generateAddresses(data))
+.catch(err => console.log(err));
