@@ -1,5 +1,18 @@
 # torty_prawdziwe👩‍🍳🎂
 
+## Concept
 A business card for one of the Warsaw cafes. 
-Additional functionalities include an offer calculator and checking the stock level.
- 
+
+## Features
+* Stock level
+* Offer calculator
+* Responsive design
+
+## Technologies
+* HTML
+* CSS
+* JavaScript
+* SASS
+* Fake API
+
+
