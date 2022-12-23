@@ -1,7 +1,7 @@
 # torty_prawdziwe👩‍🍳🎂
 
 ## Concept
-A business card for one of the Warsaw cafes. 
+A business card for one of the Warsaw cafes.
 
 ## Features
 * Stock level
@@ -14,5 +14,3 @@ A business card for one of the Warsaw cafes.
 * JavaScript
 * SASS
 * Fake API
-
-
